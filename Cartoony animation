@@ -1,0 +1,104 @@
+ getglobal game
+getfield -1 ReplicatedStorage
+getfield -1 DefaultChatSystemChatEvents
+getfield -1 SayMessageRequest
+getfield -1 FireServer
+pushvalue -2
+pushstring ;Animation-Cartoony
+pushstring All
+pcall 3 0 0
+getglobal game
+getfield -1 Players
+getfield -1 LocalPlayer
+getfield -1 Character
+getfield -1 Animate
+getfield -1 idle
+getfield -1 Animation1
+pushstring http://www.roblox.com/asset/?id=742637544
+setfield -2 AnimationId
+emptystack
+getglobal game
+getfield -1 Players
+getfield -1 LocalPlayer
+getfield -1 Character
+getfield -1 Animate
+getfield -1 idle
+getfield -1 Animation2
+pushstring http://www.roblox.com/asset/?id=742638445
+setfield -2 AnimationId
+emptystack
+getglobal game
+getfield -1 Players
+getfield -1 LocalPlayer
+getfield -1 Character
+getfield -1 Animate
+getfield -1 walk
+getfield -1 WalkAnim
+pushstring http://www.roblox.com/asset/?id=742640026
+setfield -2 AnimationId
+emptystack
+getglobal game
+getfield -1 Players
+getfield -1 LocalPlayer
+getfield -1 Character
+getfield -1 Animate
+getfield -1 run
+getfield -1 RunAnim
+pushstring http://www.roblox.com/asset/?id=742638842
+setfield -2 AnimationId
+emptystack
+getglobal game
+getfield -1 Players
+getfield -1 LocalPlayer
+getfield -1 Character
+getfield -1 Animate
+getfield -1 jump
+getfield -1 JumpAnim
+pushstring http://www.roblox.com/asset/?id=742637942
+setfield -2 AnimationId
+emptystack
+getglobal game
+getfield -1 Players
+getfield -1 LocalPlayer
+getfield -1 Character
+getfield -1 Animate
+getfield -1 climb
+getfield -1 ClimbAnim
+pushstring http://www.roblox.com/asset/?id=742636889
+setfield -2 AnimationId
+emptystack
+getglobal game
+getfield -1 Players
+getfield -1 LocalPlayer
+getfield -1 Character
+getfield -1 Animate
+getfield -1 fall
+getfield -1 FallAnim
+pushstring http://www.roblox.com/asset/?id=742637151
+setfield -2 AnimationId
+emptystack
+getglobal game
+getfield -1 Players
+getfield -1 LocalPlayer
+getfield -1 Character
+getfield -1 Humanoid
+pushboolean true
+setfield -2 Jump
+emptystack
+getglobal game
+getfield -1 GetService
+pushvalue -2
+pushstring Players
+pcall 2 1 0
+getfield -1 LocalPlayer
+getfield -1 Character
+getfield -1 Head
+getglobal game
+getfield -1 Chat
+getfield -1 Chat
+pushvalue -2
+pushvalue -5
+pushstring Script create by:!            14yWhalixz 2H#6666
+pushstring White
+pcall 4 0 0
+emptystack
