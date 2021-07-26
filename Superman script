@@ -1,0 +1,99 @@
+getglobal game
+getfield -1 GetService
+pushvalue -2
+pushstring Players
+pcall 2 1 0
+getfield -1 LocalPlayer
+getfield -1 Character
+getfield -1 Humanoid
+pushnumber 400
+setfield -2 WalkSpeed
+emptystack
+getglobal game
+getfield -1 GetService
+pushvalue -2
+pushstring Players
+pcall 2 1 0
+getfield -1 LocalPlayer
+getfield -1 Character
+getfield -1 Humanoid
+pushnumber 50
+setfield -2 HipHeight
+emptystack
+getglobal Instance
+getfield -1 new
+pushstring Animation
+pcall 1 1 0
+pushstring rbxassetid://313762630
+setfield -2 AnimationId
+getglobal game
+getfield -1 Players
+getfield -1 LocalPlayer
+getfield -1 Character
+getfield -1 Humanoid
+getfield -1 LoadAnimation
+pushvalue -2
+pushvalue -8
+pcall 2 1 0
+getfield -1 Play
+pushvalue -2
+pushnumber 0.1
+pushnumber 1
+pushnumber 1
+pcall 4 0 0
+getglobal warn
+pushvalue -3
+pcall 1 0
+getglobal Instance
+getfield -1 new
+pushstring Animation
+pcall 1 1 0
+pushstring rbxassetid://182749109
+setfield -2 AnimationId
+getglobal game
+getfield -1 Players
+getfield -1 LocalPlayer
+getfield -1 Character
+getfield -1 Humanoid
+getfield -1 LoadAnimation
+pushvalue -2
+pushvalue -8
+pcall 2 1 0
+getfield -1 Play
+pushvalue -2
+pushnumber 0.1
+pushnumber 10
+pushnumber 10
+pcall 4 0 0
+getglobal warn
+pushvalue -3
+pcall 1 0 0
+getglobal game
+getfield -1 GetService
+pushvalue -2
+pushstring Players
+pcall 2 1 0
+getfield -1 LocalPlayer
+getfield -1 Character
+getfield -1 Humanoid
+pushnumber 3.5
+setfield -2 HipHeight
+emptystack
+getglobal print
+getglobal game
+getfield -1 GetService
+pushvalue -2
+pushstring Players
+pcall 2 1 0
+getfield -1 LocalPlayer
+getfield -1 Character
+getfield -1 Head
+getglobal game
+getfield -1 Chat
+getfield -1 Chat
+pushvalue -2
+pushvalue -5
+pushstring  Successfully Execute the Superman Script!
+pushstring Green
+pcall 4 0 0
+emptystack
