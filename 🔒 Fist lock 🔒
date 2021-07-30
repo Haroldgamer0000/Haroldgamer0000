@@ -1,0 +1,80 @@
+getglobal game
+getfield -1 Players
+getfield -1 LocalPlayer
+getfield -1 Character
+getfield -1 HumanoidRootPart
+getglobal Instance
+getfield -1 new
+pushstring RocketPropulsion
+pushvalue -4
+pcall 2 0 0
+getglobal game
+getfield -1 Players
+getfield -1 LocalPlayer
+getfield -1 Character
+getfield -1 HumanoidRootPart
+getfield -1 RocketPropulsion
+pushnumber 1
+setfield -2 CartoonFactor
+emptystack
+getglobal game
+getfield -1 Players
+getfield -1 LocalPlayer
+getfield -1 Character
+getfield -1 HumanoidRootPart
+getfield -1 RocketPropulsion
+pushnumber 100000
+setfield -2 MaxThrust
+emptystack
+getglobal game
+getfield -1 Players
+getfield -1 LocalPlayer
+getfield -1 Character
+getfield -1 HumanoidRootPart
+getfield -1 RocketPropulsion
+pushnumber 1000
+setfield -2 MaxSpeed
+emptystack
+getglobal game
+getfield -1 Players
+getfield -1 LocalPlayer
+getfield -1 Character
+getfield -1 HumanoidRootPart
+getfield -1 RocketPropulsion
+pushnumber 500
+setfield -2 ThrustP
+emptystack
+getglobal game
+getfield -1 Players
+getfield -1 LocalPlayer
+getfield -1 Character
+getfield -1 HumanoidRootPart
+getfield -1 RocketPropulsion
+getglobal game
+getfield -1 Players
+getfield -1 TARGET NAME
+getfield -1 Character
+getfield -1 HumanoidRootPart
+setfield -6 Target
+getglobal game
+getfield -1 Players
+getfield -1 LocalPlayer
+getfield -1 Character
+getfield -1 HumanoidRootPart
+getfield -1 RocketPropulsion
+getfield -1 Fire
+pushvalue -2
+pcall 1 0 0
+getglobal game
+getfield -1 Players
+getfield -1 LocalPlayer
+getfield -1 Character
+getfield -1 HumanoidRootPart
+getglobal game
+getfield -1 Players
+getfield -1 TARGET NAME
+getfield -1 Character
+getfield -1 HumanoidRootPart
+getfield -1 CFrame
+setfield -7 CFrame
+emptystack
